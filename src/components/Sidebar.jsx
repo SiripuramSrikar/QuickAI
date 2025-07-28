@@ -57,7 +57,8 @@ const Sidebar = ({sidebar,setSidebar}) => {
                     </p>
                 </div>
             </div>
-            <LogOut onClink={signOut} className='w-4.5 text-gray-400 hover:text-gray-700 transition cursor-pointer'/>
+           <LogOut onClick={signOut} className='w-4.5 text-gray-400 hover:text-gray-700 transition cursor-pointer'/>
+
         </div>
     </div>
   )
