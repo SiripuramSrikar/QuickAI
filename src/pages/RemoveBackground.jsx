@@ -17,10 +17,10 @@ const RemoveBackground = () => {
         </div>
         <p className='mt-6 text-sm font-medium'>Upload Image</p>
         <input onChange={(e)=>setInput(e.target.files[0])}  type="file" accept='image/*' className='w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300 text-gray-600'  required/>
-        <p className='text-xs text-gray-500'>Supports JPG,PNG, and other image formarts</p>
+        <p className='text-xs text-gray-500 font-light mt-1'>Supports JPG,PNG, and other image formarts</p>
         <button className='w-full flex justify-center items-center gap-2 bg-gradient-to-r from-[#F6AB41] to-[#FF4938] text-white px-4 py-2 mt-6 text-sm rounded-lg cursor-pointer'>
           <Eraser className='w-5'/>
-          Generate Title
+          Remove Background
         </button>
       </form>
       <div className='w-full max-w-lg p-4 bg-white rounded-lg flex flex-col border border-gray-200 min-h-96 '>
